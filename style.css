@@ -10,10 +10,11 @@ h1 {
     font-size: 50px;
 }
 h2 {
-    font-size: 18px;
+    font-size: 35px;
 }
 li {
-    font-size: 16px;
+    font-size: 28px;
+    text-align: left;
 }
 body {
     background: #6981929d url(wallpaper.jpg); /* Цвет фона и путь к файлу */
@@ -30,28 +31,36 @@ footer {
     text-align: center;
 }
 .blocks {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    right: 250px;
+    overflow: auto;
+    margin: 0;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1380px;
 }
 .work {
-	width: 500px;
+	width: 300px;
 	height: 100px;
-	display: inline-block;
-    vertical-align: middle;
-	margin-left: 35px;
+    margin: 0;
+    text-align: center;
 }
 .uni { 
-    width: 500px;
+    width: 300px;
 	height: 100px;
-	display: inline-block;
-    vertical-align: middle;
-	margin-left: 35px;   
-   } 
+	margin: 0;
+    text-align: center;
+} 
 .js { 
-    width: 500px;
+    width: 300px;
 	height: 100px;
-	display: inline-block;
-    vertical-align: middle;
-	margin-left: 35px;
+    margin: 0;
+    text-align: center;
 }
 a:link {
     text-decoration: none;
